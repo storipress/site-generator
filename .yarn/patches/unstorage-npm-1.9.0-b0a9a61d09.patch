@@ -1,0 +1,35 @@
+diff --git a/drivers/cloudflare-kv-binding.mjs b/drivers/cloudflare-kv-binding.mjs
+index 074a059e863efd4943136560855d139f2f9095e2..cf6649b3704e42def47a7dada06205f9adb0df58 100644
+--- a/drivers/cloudflare-kv-binding.mjs
++++ b/drivers/cloudflare-kv-binding.mjs
+@@ -21,10 +21,28 @@ export default defineDriver((opts = {}) => {
+       const binding = getBinding(opts.binding);
+       return binding.get(key);
+     },
+-    setItem(key, value) {
++    setItem(key, value, options) {
+       key = r(key);
+       const binding = getBinding(opts.binding);
+-      return binding.put(key, value);
++      let expirationTtl;
++      try {
++        const now = Date.now();
++        const item = JSON.parse(value);
++        const expires = item?.expires ?? now;
++        const mtime = item?.mtime ?? now;
++        const ttl = Math.ceil((expires - mtime) / 1e3);
++        expirationTtl = ttl > 60 ? ttl : 60;
++      } catch (e) {
++        console.error('[unstorage@npm:1.9.0] [setItem] error:', e)
++      };
++      const o = {
++        expirationTtl,
++        ...options?.cloudflareKvBinding,
++        ...options?.ttl
++          ? { expirationTtl: options.ttl }
++          : opts.ttl ? { expirationTtl: opts.ttl } : {},
++      };
++      return binding.put(key, value, o);
+     },
+     removeItem(key) {
+       key = r(key);

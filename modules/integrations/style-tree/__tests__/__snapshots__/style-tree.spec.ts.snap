@@ -1,0 +1,139 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`createStyleTree > create default style tree 1`] = `
+{
+  "children": {},
+  "name": "@@jraft/STYLE_TREE_FRAGMENT",
+  "styles": {},
+}
+`;
+
+exports[`createStyleTree > create named style tree 1`] = `
+{
+  "children": {},
+  "name": "article",
+  "styles": {},
+}
+`;
+
+exports[`insertToTree > don't clear exist style 1`] = `
+{
+  "children": {
+    "b-my-block": {
+      "children": {},
+      "name": "b-my-block",
+      "styles": {
+        "backgroundColor": {
+          "xs": "#fff",
+        },
+      },
+    },
+  },
+  "name": "@@jraft/STYLE_TREE_FRAGMENT",
+  "styles": {},
+}
+`;
+
+exports[`insertToTree > insert block and article style 1`] = `
+{
+  "children": {
+    "article": {
+      "children": {
+        "article-content": {
+          "children": {
+            "& h1": {
+              "children": {},
+              "name": "& h1",
+              "styles": {
+                "fontSize": {
+                  "xs": 24,
+                },
+              },
+            },
+          },
+          "name": "article-content",
+          "styles": {},
+        },
+      },
+      "name": "article",
+      "styles": {},
+    },
+    "b-my-block": {
+      "children": {},
+      "name": "b-my-block",
+      "styles": {
+        "backgroundColor": {
+          "xs": "#fff",
+        },
+      },
+    },
+  },
+  "name": "@@jraft/STYLE_TREE_FRAGMENT",
+  "styles": {},
+}
+`;
+
+exports[`insertToTree > insert block style 1`] = `
+{
+  "children": {
+    "b-my-block": {
+      "children": {},
+      "name": "b-my-block",
+      "styles": {
+        "backgroundColor": {
+          "xs": "#fff",
+        },
+      },
+    },
+  },
+  "name": "@@jraft/STYLE_TREE_FRAGMENT",
+  "styles": {},
+}
+`;
+
+exports[`insertToTreeWithCascadeDown > insert block style with cascade down 1`] = `
+{
+  "children": {
+    "b-my-block": {
+      "children": {},
+      "meta": {
+        "dirty": {
+          "backgroundColor": "lg",
+        },
+      },
+      "name": "b-my-block",
+      "styles": {
+        "backgroundColor": {
+          "lg": "#fff",
+          "md": "#fff",
+          "xs": "#fff",
+        },
+      },
+    },
+  },
+  "name": "@@jraft/STYLE_TREE_FRAGMENT",
+  "styles": {},
+}
+`;
+
+exports[`mergeTree > merge two style tree but base is using fragment as root 1`] = `
+{
+  "children": {
+    "article": {
+      "children": {},
+      "name": "article",
+      "styles": {
+        "backgroundColor": {
+          "xs": "#fff",
+        },
+      },
+    },
+  },
+  "name": "@@jraft/STYLE_TREE_FRAGMENT",
+  "styles": {
+    "backgroundColor": {
+      "xs": "#aaa",
+    },
+  },
+}
+`;

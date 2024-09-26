@@ -1,0 +1,13 @@
+query GetSiteInfo {
+  site {
+    name
+    description
+    customer_site_domain
+    customer_site_storipress_url
+    custom_domain
+    typesense_search_only_key
+    timezone
+    workspace
+    plan
+  }
+}

@@ -1,0 +1,21 @@
+name: Unit Test
+
+on: [push]
+
+jobs:
+  unit-test:
+    runs-on: [self-hosted]
+    name: Test
+    env:
+      NODE_OPTIONS: --max-old-space-size=6144
+      GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'yarn'
+      - run: yarn
+      - run: yarn nuxi prepare playground
+      - run: yarn lint
+      - run: yarn test

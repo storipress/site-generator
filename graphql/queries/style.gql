@@ -1,0 +1,12 @@
+query Style {
+  pages {
+    id
+    current
+  }
+  layouts {
+    id
+    name
+    template
+    data
+  }
+}

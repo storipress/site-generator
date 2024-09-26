@@ -1,0 +1,54 @@
+{
+  "name": "@storipress/image-focus",
+  "version": "1.2.2",
+  "description": "A dependency free utility for cropping images based on a focal point ~2.13kB gzipped",
+  "author": "Kevin Kipp <kevin.kipp@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/storipress/image-focus"
+  },
+  "keywords": [
+    "responsive",
+    "image",
+    "focus",
+    "crop",
+    "cropper",
+    "focal",
+    "focuspoint"
+  ],
+  "main": "./dist/image-focus.mjs",
+  "module": "./dist/image-focus.mjs",
+  "types": "dist/image-focus.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "build": "vite build",
+    "lint": "eslint .",
+    "prepack": "vite build || true",
+    "test": "tsdx test --passWithNoTests"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "7.24.7",
+    "@types/jest": "27.5.2",
+    "@types/node": "18.19.34",
+    "@types/resize-observer-browser": "0.1.11",
+    "eslint": "8.57.0",
+    "husky": "9.0.11",
+    "prettier": "3.3.2",
+    "tslib": "2.6.3",
+    "typescript": "5.4.5",
+    "vite": "4.5.3"
+  }
+}

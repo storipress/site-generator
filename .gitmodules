@@ -1,0 +1,3 @@
+[submodule "Builder-Blocks"]
+	path = Builder-Blocks
+	url = git@github.com:storipress/Builder-Blocks.git

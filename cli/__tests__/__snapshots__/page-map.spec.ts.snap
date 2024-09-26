@@ -1,0 +1,211 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`can handle optional templateData 1`] = `
+{
+  "page-slug": {
+    "cover": {
+      "alt": undefined,
+      "caption": undefined,
+      "url": undefined,
+    },
+    "html": "<p>text</p>",
+    "layout": {
+      "id": "1",
+      "template": "spare-page-3",
+    },
+    "pageTitle": "pageTitle",
+    "segments": [
+      {
+        "html": "<p>text</p>",
+        "id": "normal",
+        "type": "p",
+      },
+    ],
+    "seo": {
+      "slug": "page-slug",
+    },
+    "title": "title",
+  },
+}
+`;
+
+exports[`can handle optional templateData 2`] = `
+{
+  "article": [],
+  "front": [],
+  "page": [
+    {
+      "actualTemplate": "spare-page-3",
+      "id": "1",
+      "isFallback": false,
+      "path": "./article/other-template-1",
+      "template": "spare-page-3",
+    },
+  ],
+}
+`;
+
+exports[`can handle optional templateData 3`] = `
+[
+  {
+    "action": "exists",
+    "path": "#unknown",
+  },
+  {
+    "action": "mkdir",
+    "options": {
+      "recursive": true,
+    },
+    "path": "/article/other-template-1",
+  },
+  {
+    "action": "exists",
+    "path": "/article/other-template-1",
+  },
+  {
+    "action": "copy",
+    "from": "#unknown",
+    "to": "/article/other-template-1",
+  },
+]
+`;
+
+exports[`should prepare page template and use fallback 1`] = `
+{
+  "page-slug": {
+    "cover": {
+      "alt": "headlineAlt",
+      "caption": "caption",
+      "url": "headlineURL",
+    },
+    "html": "<p>text</p>",
+    "layout": {
+      "id": "1",
+      "template": "template",
+    },
+    "pageTitle": "pageTitle",
+    "segments": [
+      {
+        "html": "<p>text</p>",
+        "id": "normal",
+        "type": "p",
+      },
+    ],
+    "seo": {
+      "slug": "page-slug",
+    },
+    "title": "title",
+  },
+}
+`;
+
+exports[`should prepare page template and use fallback 2`] = `
+{
+  "article": [],
+  "front": [],
+  "page": [
+    {
+      "actualTemplate": "other-page-nophoto",
+      "id": "1",
+      "isFallback": true,
+      "path": "./article/other-template-1",
+      "template": "template",
+    },
+  ],
+}
+`;
+
+exports[`should prepare page template and use fallback 3`] = `
+[
+  {
+    "action": "exists",
+    "path": "#unknown",
+  },
+  {
+    "action": "mkdir",
+    "options": {
+      "recursive": true,
+    },
+    "path": "/article/other-template-1",
+  },
+  {
+    "action": "exists",
+    "path": "/article/other-template-1",
+  },
+  {
+    "action": "copy",
+    "from": "#unknown",
+    "to": "/article/other-template-1",
+  },
+]
+`;
+
+exports[`should prepare page template and without using fallback 1`] = `
+{
+  "page-slug": {
+    "cover": {
+      "alt": "headlineAlt",
+      "caption": "caption",
+      "url": "headlineURL",
+    },
+    "html": "<p>text</p>",
+    "layout": {
+      "id": "1",
+      "template": "spare-page-3",
+    },
+    "pageTitle": "pageTitle",
+    "segments": [
+      {
+        "html": "<p>text</p>",
+        "id": "normal",
+        "type": "p",
+      },
+    ],
+    "seo": {
+      "slug": "page-slug",
+    },
+    "title": "title",
+  },
+}
+`;
+
+exports[`should prepare page template and without using fallback 2`] = `
+{
+  "article": [],
+  "front": [],
+  "page": [
+    {
+      "actualTemplate": "spare-page-3",
+      "id": "1",
+      "isFallback": false,
+      "path": "./article/other-template-1",
+      "template": "spare-page-3",
+    },
+  ],
+}
+`;
+
+exports[`should prepare page template and without using fallback 3`] = `
+[
+  {
+    "action": "exists",
+    "path": "#unknown",
+  },
+  {
+    "action": "mkdir",
+    "options": {
+      "recursive": true,
+    },
+    "path": "/article/other-template-1",
+  },
+  {
+    "action": "exists",
+    "path": "/article/other-template-1",
+  },
+  {
+    "action": "copy",
+    "from": "#unknown",
+    "to": "/article/other-template-1",
+  },
+]
+`;

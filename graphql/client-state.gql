@@ -1,0 +1,35 @@
+type SEOMeta {
+  title: String!
+  description: String!
+}
+
+type Injection {
+  header: String!
+  footer: String!
+}
+
+type ResolvedSEO {
+  meta: SEOMeta!
+  og: SEOMeta!
+  ogImage: String!
+  slug: String!
+  inject: Injection!
+}
+
+type Article {
+  html: String!
+  plaintext: String!
+  resolvedSEO: ResolvedSEO!
+}
+
+type Page {
+  resolvedSEO: ResolvedSEO!
+}
+
+type Desk {
+  resolvedSEO: ResolvedSEO!
+}
+
+type Design {
+  resolvedSEO: ResolvedSEO!
+}

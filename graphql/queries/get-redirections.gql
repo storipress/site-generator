@@ -1,0 +1,7 @@
+query Redirections {
+  redirections {
+    id
+    path
+    target
+  }
+}

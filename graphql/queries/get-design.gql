@@ -1,0 +1,5 @@
+query getDesign {
+  design(key: "home") {
+    current
+  }
+}

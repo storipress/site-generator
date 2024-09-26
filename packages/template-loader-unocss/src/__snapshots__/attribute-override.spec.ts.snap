@@ -1,0 +1,115 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`createAttributeOverride: article Authors 1`] = `
+"<template>
+  <ArticleBlock>
+    <Authors      />
+  </ArticleBlock>
+</template>
+<style lang=\\"postcss\\" scoped>
+  :deep(.author-name) {
+            @apply font-bold;
+          }
+</style>
+
+<style scoped>/* layer: default */
+.font-bold{font-weight:700;}</style>"
+`;
+
+exports[`createAttributeOverride: article Authors 2`] = `
+"[data-v-scopeid] .author-name,.font-bold[data-v-scopeid]{font-weight:700}
+"
+`;
+
+exports[`createAttributeOverride: article Paragraph 1`] = `
+"<template>
+  <ArticleBlock>
+    <Paragraph      />
+  </ArticleBlock>
+</template>
+<style lang=\\"postcss\\" scoped>
+  .article .article-content :deep(.main-content p) {
+            @apply font-bold;
+          }
+
+
+          :deep(.base-text) {
+            @apply font-bold;
+          }
+</style>
+
+<style scoped>/* layer: default */
+.font-bold{font-weight:700;}</style>"
+`;
+
+exports[`createAttributeOverride: article Paragraph 2`] = `
+".article .article-content[data-v-scopeid] .main-content p,[data-v-scopeid] .base-text,.font-bold[data-v-scopeid]{font-weight:700}
+"
+`;
+
+exports[`createAttributeOverride: article scoped hoist 1`] = `
+"<template>
+  <ArticleBlock>
+    <ArticleContent>
+      <Paragraph                />
+    </ArticleContent>
+  </ArticleBlock>
+</template>
+<style lang=\\"postcss\\" scoped>
+  .article .article-content :deep(.main-content p) {
+            @apply text-[#ff0000];
+          }
+
+
+          :deep(.base-text) {
+            @apply text-[#ff0000];
+          }
+</style>
+
+<style scoped>/* layer: default */
+.text-\\\\[\\\\#ff0000\\\\]{--un-text-opacity:1;color:rgb(255 0 0 / var(--un-text-opacity));}</style>"
+`;
+
+exports[`createAttributeOverride: article scoped hoist 2`] = `
+".article .article-content[data-v-scopeid] .main-content p,[data-v-scopeid] .base-text,.text-\\\\[\\\\#ff0000\\\\][data-v-scopeid]{--un-text-opacity:1;color:rgb(255 0 0 / var(--un-text-opacity))}
+"
+`;
+
+exports[`createAttributeOverride: hoist 1`] = `
+"<template>
+  <SpacingProvider             />
+</template>
+<style lang=\\"postcss\\" >
+  .spacing {
+            @apply w-[80%];
+          }
+</style>
+
+<style scoped>/* layer: default */
+.w-\\\\[80\\\\%\\\\]{width:80%;}</style>"
+`;
+
+exports[`createAttributeOverride: hoist 2`] = `
+".spacing,.w-\\\\[80\\\\%\\\\][data-v-scopeid]{width:80%}
+"
+`;
+
+exports[`createAttributeOverride: hoist multiple 1`] = `
+"<template>
+  <SpacingProvider                        />
+</template>
+<style lang=\\"postcss\\" >
+  .spacing {
+            @apply w-[80%] max-w-[1200px];
+          }
+</style>
+
+<style scoped>/* layer: default */
+.max-w-\\\\[1200px\\\\]{max-width:1200px;}
+.w-\\\\[80\\\\%\\\\]{width:80%;}</style>"
+`;
+
+exports[`createAttributeOverride: hoist multiple 2`] = `
+".spacing{width:80%;max-width:1200px}.max-w-\\\\[1200px\\\\][data-v-scopeid]{max-width:1200px}.w-\\\\[80\\\\%\\\\][data-v-scopeid]{width:80%}
+"
+`;

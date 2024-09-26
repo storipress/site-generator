@@ -1,0 +1,26 @@
+diff --git a/lib/sentry.js b/lib/sentry.js
+index 7b84bb5b509c88b0e2ff4961d1c800806eb2d34c..e9252f2416547e0f0fcbc279d169858def502250 100644
+--- a/lib/sentry.js
++++ b/lib/sentry.js
+@@ -1,7 +1,7 @@
+ "use strict";
+ Object.defineProperty(exports, "__esModule", { value: true });
+ exports.attachBreadcrumbToSentry = exports.setFingerprint = exports.DEFAULT_FINGERPRINT = exports.setTransaction = void 0;
+-var browser_1 = require("@sentry/browser");
++var browser_1 = require("@sentry/core");
+ var operation_1 = require("./operation");
+ var utils_1 = require("./utils");
+ function setTransaction(operation) {
+diff --git a/package.json b/package.json
+index ef79feb98e6cfeacb3205b104048d81f43326829..ca41c65cc3b2cb0de89f889325adfd74dddfc148 100644
+--- a/package.json
++++ b/package.json
+@@ -36,7 +36,7 @@
+   },
+   "peerDependencies": {
+     "@apollo/client": "^3.2.3",
+-    "@sentry/browser": "^7.41.0",
++    "@sentry/core": "^7.41.0",
+     "graphql": "15 - 16"
+   },
+   "devDependencies": {

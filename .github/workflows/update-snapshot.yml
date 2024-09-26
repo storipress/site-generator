@@ -1,0 +1,38 @@
+name: Update Snapshot
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - scripts/snapshot.ts
+      - cli/*
+      - Builder-Blocks
+      - .github/workflows/update-snapshot.yml
+
+jobs:
+  update-snapshot:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+      NODE_OPTIONS: --max-old-space-size=8192
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Update Snapshot
+        run: |
+          rm -rf cli/snapshot/generated-snapshot.tar.br
+          yarn
+          yarn dev:prepare
+          yarn snapshot
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: |
+            chore(main): update snapshot
+          title: |
+            chore(main): update snapshot

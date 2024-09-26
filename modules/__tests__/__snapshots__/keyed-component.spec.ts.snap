@@ -1,0 +1,123 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`work with multiple component 2`] = `
+"import { resolveComponent as y, openBlock as n, createElementBlock as r, Fragment as o, renderList as l, createVNode as u } from \\"vue\\";
+const _ = (c, k) => {
+  const t = c.__vccOpts || c;
+  for (const [e, a] of k)
+    t[e] = a;
+  return t;
+}, s = {};
+function $(c, k) {
+  const t = y(\\"ArticleBlock\\");
+  return n(), r(
+    o,
+    null,
+    [
+      (n(), r(
+        o,
+        null,
+        l(3, (e) => u(t, {
+          \\"auto-key\\": \`$ak$uihs43npny--\${e}\`,
+          key: e
+        }, null, 8, [\\"auto-key\\"])),
+        64
+        /* STABLE_FRAGMENT */
+      )),
+      (n(), r(
+        o,
+        null,
+        l(3, (e) => u(t, {
+          \\"auto-key\\": \`$ak$chv5iBGGk3--\${e}\`,
+          key: e
+        }, null, 8, [\\"auto-key\\"])),
+        64
+        /* STABLE_FRAGMENT */
+      )),
+      (n(), r(
+        o,
+        null,
+        l(3, (e) => u(t, {
+          \\"auto-key\\": \`$ak$D0ASxrO3qi--\${e}\`,
+          key: e
+        }, null, 8, [\\"auto-key\\"])),
+        64
+        /* STABLE_FRAGMENT */
+      )),
+      (n(), r(
+        o,
+        null,
+        l(3, (e) => u(t, {
+          \\"auto-key\\": \`$ak$KlWdH8wBzw--\${e}\`,
+          key: e
+        }, null, 8, [\\"auto-key\\"])),
+        64
+        /* STABLE_FRAGMENT */
+      ))
+    ],
+    64
+    /* STABLE_FRAGMENT */
+  );
+}
+const p = /* @__PURE__ */ _(s, [[\\"render\\", $], [\\"__file\\", \\"/entry.vue\\"]]);
+export {
+  p as default
+};
+"
+`;
+
+exports[`work with v-for 2`] = `
+"import { resolveComponent as c, openBlock as l, createElementBlock as _, Fragment as s, renderList as a, createVNode as u } from \\"vue\\";
+const k = (n, o) => {
+  const e = n.__vccOpts || n;
+  for (const [t, r] of o)
+    e[t] = r;
+  return e;
+}, f = {};
+function p(n, o) {
+  const e = c(\\"ArticleBlock\\");
+  return l(), _(
+    s,
+    null,
+    a(3, (t) => u(e, {
+      \\"auto-key\\": \`$ak$uihs43npny--\${t}\`,
+      key: t
+    }, null, 8, [\\"auto-key\\"])),
+    64
+    /* STABLE_FRAGMENT */
+  );
+}
+const m = /* @__PURE__ */ k(f, [[\\"render\\", p], [\\"__file\\", \\"/entry.vue\\"]]);
+export {
+  m as default
+};
+"
+`;
+
+exports[`work with v-for variable 2`] = `
+"import { resolveComponent as c, openBlock as l, createElementBlock as _, Fragment as s, renderList as a, createVNode as u } from \\"vue\\";
+const k = (n, o) => {
+  const e = n.__vccOpts || n;
+  for (const [t, r] of o)
+    e[t] = r;
+  return e;
+}, f = {};
+function p(n, o) {
+  const e = c(\\"ArticleBlock\\");
+  return l(), _(
+    s,
+    null,
+    a([1, 2, 3], (t) => u(e, {
+      \\"auto-key\\": \`$ak$uihs43npny--\${t}\`,
+      key: t
+    }, null, 8, [\\"auto-key\\"])),
+    64
+    /* STABLE_FRAGMENT */
+  );
+}
+const m = /* @__PURE__ */ k(f, [[\\"render\\", p], [\\"__file\\", \\"/entry.vue\\"]]);
+export {
+  m as default
+};
+"
+`;
