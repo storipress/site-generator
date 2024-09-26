@@ -1,0 +1,6 @@
+query GetLayouts {
+  layouts {
+    id
+    template
+  }
+}

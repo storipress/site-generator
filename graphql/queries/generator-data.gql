@@ -1,0 +1,68 @@
+# ! remember to update generator-data-without-encryption.gql
+#import "../fragments/layout.gql"
+#import "../fragments/seo-meta.gql"
+
+query GeneratorData {
+  site {
+    name
+    description
+    socials
+    custom_domain
+    favicon
+    workspace
+    customer_site_domain
+    timezone
+    plan
+    lang
+    subscription_setup_done
+  }
+  desks {
+    id
+    name
+    slug
+    seo
+    order
+    articles_count
+    resolvedSEO @client {
+      ...SEOFragment
+    }
+    desks {
+      id
+      articles_count
+    }
+  }
+  pages {
+    id
+    title
+    current
+    seo
+    resolvedSEO @client {
+      ...SEOFragment
+    }
+    order
+  }
+  layouts {
+    ...LayoutFragment
+  }
+  tags {
+    id
+    name
+  }
+  home: design(key: "home") {
+    key
+    current
+    seo
+    resolvedSEO @client {
+      ...SEOFragment
+    }
+  }
+  integrations {
+    key
+    data
+    activated_at
+  }
+  stages {
+    id
+    ready
+  }
+}

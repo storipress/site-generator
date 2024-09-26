@@ -1,0 +1,8 @@
+query GetPages {
+  pages {
+    id
+    title
+    seo
+    current
+  }
+}

@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`transformer: no attribute component 1`] = `
+"<template>
+  <ArticleBlock class=\\"bg-[#0000ff]\\" ></ArticleBlock>
+</template>
+
+<style scoped>/* layer: default */
+.bg-\\\\[\\\\#0000ff\\\\]{--un-bg-opacity:1;background-color:rgb(0 0 255 / var(--un-bg-opacity));}</style>"
+`;
+
+exports[`transformer: self close attribute component 1`] = `
+"<template>
+  <ArticleBlock  class=\\"bg-[#0000ff]\\" />
+</template>
+
+<style scoped>/* layer: default */
+.bg-\\\\[\\\\#0000ff\\\\]{--un-bg-opacity:1;background-color:rgb(0 0 255 / var(--un-bg-opacity));}</style>"
+`;

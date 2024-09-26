@@ -1,0 +1,1614 @@
+{
+  "texts": {
+    "b-3xnQbTzWpavi8FDodYDrb": {
+      "copyright": "{\"content\":\"© Storipress 2023 | All Rights Reserved | Published on Storipress\",\"links\":[{\"start\":2,\"end\":12,\"href\":\"https://storipress.com\",\"pageId\":\"\"}]}",
+      "service-provider-input": "{\"content\":\"powered by storipress\",\"links\":[{\"start\":11,\"end\":23,\"href\":\"https://storipress.com\",\"pageId\":\"\"}]}"
+    },
+    "b-JKkfHu1Huy5mN0_0ljHSp": {
+      "desk-title": {
+        "1": "{\"content\":\"latest\",\"links\":[]}",
+        "2": "{\"content\":\"Culture\",\"links\":[]}",
+        "3": "{\"content\":\"Sport\",\"links\":[]}"
+      }
+    },
+    "b-dqjmVt6TTybCNeB58JG6W": {
+      "desk-2-title": "{\"content\":\"The Podcasts\",\"links\":[]}",
+      "desk-1-heading-input": "{\"content\":\"Must reads\",\"links\":[]}"
+    },
+    "b-hd3ZDXcG7nsMUcZi5sanP": {
+      "desk-title": "{\"content\":\"find out more\",\"links\":[]}"
+    },
+    "b-jh9YPPPjuYWTNxLf1FdqY": {
+      "desk-title": "{\"content\":\"Go in depth\",\"links\":[]}"
+    }
+  },
+  "blocks": [
+    "dHwgIV24IXgf4h7ms6_x4",
+    "dqjmVt6TTybCNeB58JG6W",
+    "jh9YPPPjuYWTNxLf1FdqY",
+    "hd3ZDXcG7nsMUcZi5sanP",
+    "JKkfHu1Huy5mN0_0ljHSp",
+    "3xnQbTzWpavi8FDodYDrb"
+  ],
+  "images": {
+    "b-3xnQbTzWpavi8FDodYDrb": {
+      "logo": "https://assets.stori.press/media/images/8f9ebd5f-8a92-4124-be53-676840743cf1.png"
+    },
+    "b-dHwgIV24IXgf4h7ms6_x4": {
+      "logo": "https://assets.stori.press/media/images/3e7a16c2-fedf-4c2c-ac3d-253c614d4220.png"
+    }
+  },
+  "styles": {
+    "name": "@@jraft/STYLE_TREE_FRAGMENT",
+    "styles": {},
+    "children": {
+      "b-3xnQbTzWpavi8FDodYDrb": {
+        "meta": {
+          "dirty": {
+            "backgroundColor": "lg"
+          }
+        },
+        "name": "b-3xnQbTzWpavi8FDodYDrb",
+        "styles": {
+          "backgroundColor": {
+            "lg": "0b1a35ff",
+            "md": "0b1a35ff",
+            "xs": "0b1a35ff"
+          }
+        },
+        "children": {
+          "copyright": {
+            "meta": {
+              "dirty": {
+                "bold": "lg",
+                "fontSize": "lg",
+                "fontFamily": "xs"
+              }
+            },
+            "name": "copyright",
+            "styles": {
+              "bold": {
+                "lg": false,
+                "md": false,
+                "xs": false
+              },
+              "color": {
+                "xs": "fff"
+              },
+              "fontSize": {
+                "lg": 14,
+                "md": 14,
+                "xs": 12
+              },
+              "fontFamily": {
+                "lg": "Barlow",
+                "md": "Barlow",
+                "xs": "Butler"
+              }
+            },
+            "children": {}
+          },
+          "link-text": {
+            "meta": {
+              "dirty": {
+                "color": "xs",
+                "fontSize": "xs",
+                "lowercase": "xs",
+                "uppercase": "xs",
+                "fontFamily": "xs"
+              }
+            },
+            "name": "link-text",
+            "styles": {
+              "color": {
+                "lg": "ffffffff",
+                "md": "ffffffff",
+                "xs": "ffffffff"
+              },
+              "fontSize": {
+                "lg": 24,
+                "md": 24,
+                "xs": 20
+              },
+              "lowercase": {
+                "xs": false
+              },
+              "uppercase": {
+                "xs": true
+              },
+              "fontFamily": {
+                "lg": "League Gothic",
+                "md": "League Gothic",
+                "xs": "League Gothic"
+              }
+            },
+            "children": {}
+          },
+          "social-icon": {
+            "meta": {
+              "dirty": {
+                "color": "lg"
+              }
+            },
+            "name": "social-icon",
+            "styles": {
+              "color": {
+                "lg": "ffffffff",
+                "md": "ffffffff",
+                "xs": "ffffffff"
+              },
+              "fontSize": {
+                "xs": 40
+              }
+            },
+            "children": {}
+          },
+          "service-provider": {
+            "name": "service-provider",
+            "styles": {
+              "color": {
+                "xs": "000"
+              },
+              "fontSize": {
+                "xs": 12
+              },
+              "fontFamily": {
+                "xs": "Jost"
+              }
+            },
+            "children": {}
+          },
+          "service-provider-input": {
+            "name": "service-provider-input",
+            "styles": {
+              "color": {
+                "xs": "000"
+              },
+              "fontSize": {
+                "xs": 12
+              },
+              "fontFamily": {
+                "xs": "Jost"
+              }
+            },
+            "children": {}
+          }
+        }
+      },
+      "b-JKkfHu1Huy5mN0_0ljHSp": {
+        "name": "b-JKkfHu1Huy5mN0_0ljHSp",
+        "styles": {
+          "backgroundColor": {
+            "xs": "f6f6f6"
+          }
+        },
+        "children": {
+          "desk-title": {
+            "meta": {
+              "dirty": {
+                "bold": "md",
+                "fontSize": "xs",
+                "lowercase": "lg",
+                "uppercase": "lg",
+                "fontFamily": "xs",
+                "lineHeight": "lg"
+              }
+            },
+            "name": "desk-title",
+            "styles": {
+              "bold": {
+                "md": true,
+                "xs": true
+              },
+              "fontSize": {
+                "lg": 51,
+                "md": 60,
+                "xs": 60
+              },
+              "lowercase": {
+                "lg": false,
+                "md": false,
+                "xs": false
+              },
+              "uppercase": {
+                "lg": true,
+                "md": true,
+                "xs": true
+              },
+              "fontFamily": {
+                "lg": "League Gothic",
+                "md": "League Gothic",
+                "xs": "League Gothic"
+              },
+              "lineHeight": {
+                "lg": 1,
+                "md": 1,
+                "xs": 1
+              }
+            },
+            "children": {}
+          },
+          "article-title": {
+            "meta": {
+              "dirty": {
+                "color": "lg",
+                "fontFamily": "xs"
+              }
+            },
+            "name": "article-title",
+            "styles": {
+              "color": {
+                "lg": "5f5f5fff",
+                "md": "5f5f5fff",
+                "xs": "5f5f5fff"
+              },
+              "fontSize": {
+                "xs": 17
+              },
+              "fontFamily": {
+                "lg": "Barlow",
+                "md": "Barlow",
+                "xs": "Butler"
+              }
+            },
+            "children": {}
+          }
+        }
+      },
+      "b-dHwgIV24IXgf4h7ms6_x4": {
+        "meta": {
+          "dirty": {
+            "backgroundColor": "xs"
+          }
+        },
+        "name": "b-dHwgIV24IXgf4h7ms6_x4",
+        "styles": {
+          "backgroundColor": {
+            "lg": "0b1a35ff",
+            "md": "0b1a35ff",
+            "xs": "0b1a35ff"
+          }
+        },
+        "children": {
+          "menu-text": {
+            "meta": {
+              "dirty": {
+                "color": "xs",
+                "fontSize": "xs",
+                "lowercase": "lg",
+                "uppercase": "lg",
+                "fontFamily": "xs"
+              }
+            },
+            "name": "menu-text",
+            "styles": {
+              "color": {
+                "lg": "ffffffff",
+                "md": "ffffffff",
+                "xs": "ffffffff"
+              },
+              "fontSize": {
+                "lg": 28,
+                "md": 20,
+                "xs": 16
+              },
+              "lowercase": {
+                "lg": false,
+                "md": false,
+                "xs": false
+              },
+              "uppercase": {
+                "lg": true,
+                "md": true,
+                "xs": true
+              },
+              "fontFamily": {
+                "lg": "League Gothic",
+                "md": "League Gothic",
+                "xs": "League Gothic"
+              },
+              "lineHeight": {
+                "xs": 1.4
+              }
+            },
+            "children": {}
+          },
+          "nav-desk-link": {
+            "meta": {
+              "dirty": {
+                "color": "lg",
+                "fontSize": "md",
+                "lowercase": "lg",
+                "uppercase": "lg",
+                "fontFamily": "lg"
+              }
+            },
+            "name": "nav-desk-link",
+            "styles": {
+              "color": {
+                "lg": "ffffffff",
+                "md": "ffffffff",
+                "xs": "000"
+              },
+              "fontSize": {
+                "lg": 28,
+                "md": 20,
+                "xs": 20
+              },
+              "lowercase": {
+                "lg": false,
+                "md": false,
+                "xs": false
+              },
+              "uppercase": {
+                "lg": true,
+                "md": true,
+                "xs": true
+              },
+              "fontFamily": {
+                "lg": "League Gothic",
+                "md": "League Gothic",
+                "xs": "Jost"
+              },
+              "lineHeight": {
+                "xs": 1.4
+              }
+            },
+            "children": {}
+          },
+          "menu-close-text": {
+            "meta": {
+              "dirty": {
+                "color": "xs",
+                "fontSize": "xs",
+                "lowercase": "lg",
+                "uppercase": "lg",
+                "fontFamily": "xs"
+              }
+            },
+            "name": "menu-close-text",
+            "styles": {
+              "color": {
+                "lg": "ffffffff",
+                "md": "ffffffff",
+                "xs": "ffffffff"
+              },
+              "fontSize": {
+                "lg": 22,
+                "md": 20,
+                "xs": 16
+              },
+              "lowercase": {
+                "lg": false,
+                "md": false,
+                "xs": false
+              },
+              "uppercase": {
+                "lg": true,
+                "md": true,
+                "xs": true
+              },
+              "fontFamily": {
+                "lg": "League Gothic",
+                "md": "League Gothic",
+                "xs": "League Gothic"
+              },
+              "lineHeight": {
+                "xs": 1.4
+              }
+            },
+            "children": {}
+          },
+          "search-icon-text": {
+            "meta": {
+              "dirty": {
+                "color": "lg",
+                "fontSize": "lg"
+              }
+            },
+            "name": "search-icon-text",
+            "styles": {
+              "color": {
+                "lg": "ffffffff",
+                "md": "ffffffff",
+                "xs": "ffffffff"
+              },
+              "fontSize": {
+                "lg": 26,
+                "md": 26,
+                "xs": 26
+              }
+            },
+            "children": {}
+          },
+          "side-menu-desk-0": {
+            "meta": {
+              "dirty": {
+                "color": "lg",
+                "fontSize": "xs",
+                "lowercase": "lg",
+                "uppercase": "lg",
+                "fontFamily": "xs"
+              }
+            },
+            "name": "side-menu-desk-0",
+            "styles": {
+              "color": {
+                "lg": "1b7962b3",
+                "md": "1b7962b3",
+                "xs": "025744"
+              },
+              "fontSize": {
+                "lg": 78,
+                "md": 30,
+                "xs": 32
+              },
+              "lowercase": {
+                "lg": false,
+                "md": false,
+                "xs": false
+              },
+              "uppercase": {
+                "lg": true,
+                "md": true,
+                "xs": true
+              },
+              "fontFamily": {
+                "lg": "League Gothic",
+                "md": "League Gothic",
+                "xs": "League Gothic"
+              },
+              "lineHeight": {
+                "xs": 1.4
+              }
+            },
+            "children": {}
+          },
+          "side-menu-desk-1": {
+            "meta": {
+              "dirty": {
+                "fontSize": "xs",
+                "lowercase": "lg",
+                "uppercase": "lg",
+                "fontFamily": "xs"
+              }
+            },
+            "name": "side-menu-desk-1",
+            "styles": {
+              "color": {
+                "xs": "d77720"
+              },
+              "fontSize": {
+                "lg": 78,
+                "md": 30,
+                "xs": 32
+              },
+              "lowercase": {
+                "lg": false,
+                "md": false,
+                "xs": false
+              },
+              "uppercase": {
+                "lg": true,
+                "md": true,
+                "xs": true
+              },
+              "fontFamily": {
+                "lg": "League Gothic",
+                "md": "League Gothic",
+                "xs": "League Gothic"
+              },
+              "lineHeight": {
+                "xs": 1.4
+              }
+            },
+            "children": {}
+          },
+          "side-menu-desk-2": {
+            "meta": {
+              "dirty": {
+                "fontSize": "xs",
+                "lowercase": "lg",
+                "uppercase": "lg",
+                "fontFamily": "xs"
+              }
+            },
+            "name": "side-menu-desk-2",
+            "styles": {
+              "color": {
+                "xs": "92110b"
+              },
+              "fontSize": {
+                "lg": 78,
+                "md": 30,
+                "xs": 32
+              },
+              "lowercase": {
+                "lg": false,
+                "md": false,
+                "xs": false
+              },
+              "uppercase": {
+                "lg": true,
+                "md": true,
+                "xs": true
+              },
+              "fontFamily": {
+                "lg": "League Gothic",
+                "md": "League Gothic",
+                "xs": "League Gothic"
+              },
+              "lineHeight": {
+                "xs": 1.4
+              }
+            },
+            "children": {}
+          },
+          "article-title-kind": {
+            "meta": {
+              "dirty": {
+                "fontSize": "xs",
+                "lowercase": "lg",
+                "uppercase": "lg",
+                "fontFamily": "xs",
+                "lineHeight": "xs"
+              }
+            },
+            "name": "article-title-kind",
+            "styles": {
+              "color": {
+                "xs": "fff"
+              },
+              "fontSize": {
+                "lg": 52,
+                "md": 40,
+                "xs": 38
+              },
+              "lowercase": {
+                "lg": false,
+                "md": false,
+                "xs": false
+              },
+              "uppercase": {
+                "lg": true,
+                "md": true,
+                "xs": true
+              },
+              "fontFamily": {
+                "lg": "League Gothic",
+                "md": "League Gothic",
+                "xs": "League Gothic"
+              },
+              "lineHeight": {
+                "lg": 1.2,
+                "xs": 1.4
+              }
+            },
+            "children": {}
+          },
+          "side-menu-page-kind": {
+            "meta": {
+              "dirty": {
+                "color": "xs",
+                "fontFamily": "xs"
+              }
+            },
+            "name": "side-menu-page-kind",
+            "styles": {
+              "color": {
+                "lg": "ffffffff",
+                "md": "ffffffff",
+                "xs": "ffffffff"
+              },
+              "fontSize": {
+                "md": 20,
+                "xs": 18
+              },
+              "fontFamily": {
+                "lg": "Archivo Black",
+                "md": "Archivo Black",
+                "xs": "Archivo Black"
+              },
+              "lineHeight": {
+                "xs": 1.4
+              }
+            },
+            "children": {}
+          },
+          "article-authors-kind": {
+            "meta": {
+              "dirty": {
+                "fontFamily": "xs"
+              }
+            },
+            "name": "article-authors-kind",
+            "styles": {
+              "color": {
+                "xs": "fff"
+              },
+              "fontSize": {
+                "md": 18,
+                "xs": 16
+              },
+              "fontFamily": {
+                "lg": "Archivo Black",
+                "md": "Archivo Black",
+                "xs": "Archivo Black"
+              },
+              "lineHeight": {
+                "xs": 1.4
+              }
+            },
+            "children": {}
+          },
+          "fixed-side-menu-kind": {
+            "meta": {
+              "dirty": {
+                "backgroundColor": "xs"
+              }
+            },
+            "name": "fixed-side-menu-kind",
+            "styles": {
+              "backgroundColor": {
+                "lg": "0a1e42ff",
+                "md": "0a1e42ff",
+                "xs": "0b1a35ff"
+              }
+            },
+            "children": {}
+          },
+          "article-desk-title-kind": {
+            "meta": {
+              "dirty": {
+                "lowercase": "lg",
+                "uppercase": "lg",
+                "fontFamily": "xs"
+              }
+            },
+            "name": "article-desk-title-kind",
+            "styles": {
+              "color": {
+                "xs": "fff"
+              },
+              "fontSize": {
+                "md": 17,
+                "xs": 15
+              },
+              "lowercase": {
+                "lg": false,
+                "md": false,
+                "xs": false
+              },
+              "uppercase": {
+                "lg": true,
+                "md": true,
+                "xs": true
+              },
+              "fontFamily": {
+                "lg": "Archivo Black",
+                "md": "Archivo Black",
+                "xs": "Archivo Black"
+              },
+              "lineHeight": {
+                "xs": 1.4
+              }
+            },
+            "children": {}
+          },
+          "header-grid-wrapper-kind": {
+            "meta": {
+              "dirty": {
+                "backgroundColor": "xs"
+              }
+            },
+            "name": "header-grid-wrapper-kind",
+            "styles": {
+              "backgroundColor": {
+                "lg": "0b1a35ff",
+                "md": "0b1a35ff",
+                "xs": "0b1a35ff"
+              }
+            },
+            "children": {}
+          },
+          "menu-text-seperator-kind": {
+            "meta": {
+              "dirty": {
+                "color": "xs",
+                "fontSize": "md",
+                "lowercase": "xs",
+                "underline": "lg",
+                "uppercase": "xs",
+                "fontFamily": "xs"
+              }
+            },
+            "name": "menu-text-seperator-kind",
+            "styles": {
+              "align": {
+                "xs": "center"
+              },
+              "color": {
+                "lg": "ffffffff",
+                "md": "ffffffff",
+                "xs": "ffffffff"
+              },
+              "fontSize": {
+                "lg": 26,
+                "md": 20,
+                "xs": 20
+              },
+              "lowercase": {
+                "xs": false
+              },
+              "underline": {
+                "lg": false,
+                "md": false,
+                "xs": false
+              },
+              "uppercase": {
+                "xs": false
+              },
+              "fontFamily": {
+                "lg": "League Gothic",
+                "md": "League Gothic",
+                "xs": "League Gothic"
+              },
+              "lineHeight": {
+                "xs": 1.4
+              }
+            },
+            "children": {}
+          },
+          "social-icon-text-twitter": {
+            "meta": {
+              "dirty": {
+                "color": "lg"
+              }
+            },
+            "name": "social-icon-text-twitter",
+            "styles": {
+              "color": {
+                "lg": "ffffffff",
+                "md": "ffffffff",
+                "xs": "ffffffff"
+              },
+              "fontSize": {
+                "xs": 19
+              }
+            },
+            "children": {}
+          },
+          "social-icon-text-youtube": {
+            "meta": {
+              "dirty": {
+                "color": "lg"
+              }
+            },
+            "name": "social-icon-text-youtube",
+            "styles": {
+              "color": {
+                "lg": "ffffffff",
+                "md": "ffffffff",
+                "xs": "ffffffff"
+              },
+              "fontSize": {
+                "xs": 19
+              }
+            },
+            "children": {}
+          },
+          "desk-links-seperator-kind": {
+            "meta": {
+              "dirty": {
+                "color": "lg",
+                "fontSize": "md",
+                "lowercase": "lg",
+                "uppercase": "lg",
+                "fontFamily": "lg"
+              }
+            },
+            "name": "desk-links-seperator-kind",
+            "styles": {
+              "align": {
+                "xs": "center"
+              },
+              "color": {
+                "lg": "ffffffb3",
+                "md": "ffffffb3",
+                "xs": "ffffffb3"
+              },
+              "fontSize": {
+                "lg": 26,
+                "md": 20,
+                "xs": 20
+              },
+              "lowercase": {
+                "lg": false,
+                "md": false,
+                "xs": false
+              },
+              "uppercase": {
+                "lg": false,
+                "md": false,
+                "xs": false
+              },
+              "fontFamily": {
+                "lg": "League Gothic",
+                "md": "League Gothic",
+                "xs": "League Gothic"
+              },
+              "lineHeight": {
+                "xs": 1.4
+              }
+            },
+            "children": {}
+          },
+          "social-icon-text-facebook": {
+            "meta": {
+              "dirty": {
+                "color": "lg"
+              }
+            },
+            "name": "social-icon-text-facebook",
+            "styles": {
+              "color": {
+                "lg": "ffffffff",
+                "md": "ffffffff",
+                "xs": "ffffffff"
+              },
+              "fontSize": {
+                "xs": 19
+              }
+            },
+            "children": {}
+          },
+          "social-icon-text-linkedin": {
+            "meta": {
+              "dirty": {
+                "color": "lg"
+              }
+            },
+            "name": "social-icon-text-linkedin",
+            "styles": {
+              "color": {
+                "lg": "ffffffff",
+                "md": "ffffffff",
+                "xs": "ffffffff"
+              },
+              "fontSize": {
+                "xs": 19
+              }
+            },
+            "children": {}
+          },
+          "social-icon-text-instagram": {
+            "meta": {
+              "dirty": {
+                "color": "lg"
+              }
+            },
+            "name": "social-icon-text-instagram",
+            "styles": {
+              "color": {
+                "lg": "ffffffff",
+                "md": "ffffffff",
+                "xs": "ffffffff"
+              },
+              "fontSize": {
+                "xs": 19
+              }
+            },
+            "children": {}
+          },
+          "menu-social-icon-text-twitter": {
+            "name": "menu-social-icon-text-twitter",
+            "styles": {
+              "color": {
+                "xs": "7c7c7c"
+              },
+              "fontSize": {
+                "xs": 19
+              }
+            },
+            "children": {}
+          },
+          "menu-social-icon-text-youtube": {
+            "name": "menu-social-icon-text-youtube",
+            "styles": {
+              "color": {
+                "xs": "7c7c7c"
+              },
+              "fontSize": {
+                "xs": 19
+              }
+            },
+            "children": {}
+          },
+          "menu-social-icon-text-facebook": {
+            "name": "menu-social-icon-text-facebook",
+            "styles": {
+              "color": {
+                "xs": "7c7c7c"
+              },
+              "fontSize": {
+                "xs": 19
+              }
+            },
+            "children": {}
+          },
+          "menu-social-icon-text-linkedin": {
+            "name": "menu-social-icon-text-linkedin",
+            "styles": {
+              "color": {
+                "xs": "7c7c7c"
+              },
+              "fontSize": {
+                "xs": 19
+              }
+            },
+            "children": {}
+          },
+          "menu-social-icon-text-instagram": {
+            "name": "menu-social-icon-text-instagram",
+            "styles": {
+              "color": {
+                "xs": "7c7c7c"
+              },
+              "fontSize": {
+                "xs": 19
+              }
+            },
+            "children": {}
+          }
+        }
+      },
+      "b-dqjmVt6TTybCNeB58JG6W": {
+        "name": "b-dqjmVt6TTybCNeB58JG6W",
+        "styles": {
+          "backgroundColor": {
+            "xs": "f6f6f6"
+          }
+        },
+        "children": {
+          "article-desk": {
+            "meta": {
+              "dirty": {
+                "fontFamily": "xs"
+              }
+            },
+            "name": "article-desk",
+            "styles": {
+              "align": {
+                "xs": "left"
+              },
+              "fontSize": {
+                "xs": 12
+              },
+              "fontFamily": {
+                "lg": "Barlow",
+                "md": "Barlow",
+                "xs": "Butler"
+              }
+            },
+            "children": {}
+          },
+          "article-time": {
+            "meta": {
+              "dirty": {
+                "fontFamily": "xs"
+              }
+            },
+            "name": "article-time",
+            "styles": {
+              "align": {
+                "xs": "left"
+              },
+              "fontSize": {
+                "xs": 11
+              },
+              "fontFamily": {
+                "lg": "Barlow",
+                "md": "Barlow",
+                "xs": "Butler"
+              }
+            },
+            "children": {}
+          },
+          "desk-2-title": {
+            "meta": {
+              "dirty": {
+                "bold": "xs",
+                "fontSize": "xs",
+                "lowercase": "lg",
+                "uppercase": "lg",
+                "fontFamily": "xs"
+              }
+            },
+            "name": "desk-2-title",
+            "styles": {
+              "bold": {
+                "xs": true
+              },
+              "align": {
+                "xs": "left"
+              },
+              "fontSize": {
+                "lg": 60,
+                "md": 60,
+                "xs": 40
+              },
+              "lowercase": {
+                "lg": false,
+                "md": false,
+                "xs": false
+              },
+              "uppercase": {
+                "lg": true,
+                "md": true,
+                "xs": true
+              },
+              "fontFamily": {
+                "lg": "League Gothic",
+                "md": "League Gothic",
+                "xs": "League Gothic"
+              },
+              "lineHeight": {
+                "xs": 1
+              }
+            },
+            "children": {}
+          },
+          "article-title": {
+            "meta": {
+              "dirty": {
+                "fontSize": "xs",
+                "fontFamily": "xs"
+              }
+            },
+            "name": "article-title",
+            "styles": {
+              "align": {
+                "xs": "right"
+              },
+              "fontSize": {
+                "lg": 18,
+                "md": 16,
+                "xs": 20
+              },
+              "fontFamily": {
+                "lg": "Archivo Black",
+                "md": "Archivo Black",
+                "xs": "Archivo Black"
+              },
+              "lineHeight": {
+                "xs": 1
+              }
+            },
+            "children": {}
+          },
+          "article-title-mini": {
+            "meta": {
+              "dirty": {
+                "fontSize": "xs",
+                "fontFamily": "xs"
+              }
+            },
+            "name": "article-title-mini",
+            "styles": {
+              "align": {
+                "xs": "right"
+              },
+              "fontSize": {
+                "lg": 18,
+                "md": 16,
+                "xs": 16
+              },
+              "fontFamily": {
+                "lg": "Archivo Black",
+                "md": "Archivo Black",
+                "xs": "Archivo Black"
+              },
+              "lineHeight": {
+                "xs": 1
+              }
+            },
+            "children": {}
+          },
+          "desk-1-heading-input": {
+            "meta": {
+              "dirty": {
+                "fontSize": "xs",
+                "lowercase": "lg",
+                "uppercase": "lg",
+                "fontFamily": "xs",
+                "lineHeight": "lg"
+              }
+            },
+            "name": "desk-1-heading-input",
+            "styles": {
+              "color": {
+                "xs": "000"
+              },
+              "fontSize": {
+                "lg": 140,
+                "md": 120,
+                "xs": 75
+              },
+              "lowercase": {
+                "lg": false,
+                "md": false,
+                "xs": false
+              },
+              "uppercase": {
+                "lg": true,
+                "md": true,
+                "xs": true
+              },
+              "fontFamily": {
+                "lg": "Archivo Black",
+                "md": "Archivo Black",
+                "xs": "Archivo Black"
+              },
+              "lineHeight": {
+                "lg": 1,
+                "md": 1,
+                "xs": 1
+              }
+            },
+            "children": {}
+          },
+          "article-title-feature": {
+            "meta": {
+              "dirty": {
+                "fontSize": "xs",
+                "lowercase": "lg",
+                "uppercase": "lg",
+                "fontFamily": "xs"
+              }
+            },
+            "name": "article-title-feature",
+            "styles": {
+              "align": {
+                "xs": "left"
+              },
+              "fontSize": {
+                "lg": 44,
+                "md": 40,
+                "xs": 32
+              },
+              "lowercase": {
+                "lg": false,
+                "md": false,
+                "xs": false
+              },
+              "uppercase": {
+                "lg": true,
+                "md": true,
+                "xs": true
+              },
+              "fontFamily": {
+                "lg": "League Gothic",
+                "md": "League Gothic",
+                "xs": "League Gothic"
+              },
+              "lineHeight": {
+                "xs": 1.1
+              }
+            },
+            "children": {}
+          }
+        }
+      },
+      "b-hd3ZDXcG7nsMUcZi5sanP": {
+        "name": "b-hd3ZDXcG7nsMUcZi5sanP",
+        "styles": {
+          "backgroundColor": {
+            "xs": "f6f6f6"
+          }
+        },
+        "children": {
+          "desk-title": {
+            "meta": {
+              "dirty": {
+                "align": "xs",
+                "fontSize": "xs",
+                "lowercase": "lg",
+                "uppercase": "lg",
+                "fontFamily": "xs",
+                "lineHeight": "md"
+              }
+            },
+            "name": "desk-title",
+            "styles": {
+              "bold": {
+                "xs": true
+              },
+              "align": {
+                "xs": "center"
+              },
+              "fontSize": {
+                "lg": 120,
+                "md": 120,
+                "xs": 60
+              },
+              "lowercase": {
+                "lg": false,
+                "md": false,
+                "xs": false
+              },
+              "uppercase": {
+                "lg": true,
+                "md": true,
+                "xs": true
+              },
+              "fontFamily": {
+                "lg": "League Gothic",
+                "md": "League Gothic",
+                "xs": "League Gothic"
+              },
+              "lineHeight": {
+                "md": 1,
+                "xs": 1
+              }
+            },
+            "children": {}
+          },
+          "article-desk": {
+            "meta": {
+              "dirty": {
+                "lowercase": "xs",
+                "uppercase": "xs",
+                "fontFamily": "xs"
+              }
+            },
+            "name": "article-desk",
+            "styles": {
+              "fontSize": {
+                "lg": 12
+              },
+              "lowercase": {
+                "xs": false
+              },
+              "uppercase": {
+                "xs": true
+              },
+              "fontFamily": {
+                "lg": "Archivo Black",
+                "md": "Archivo Black",
+                "xs": "Archivo Black"
+              }
+            },
+            "children": {}
+          },
+          "article-blurb": {
+            "meta": {
+              "dirty": {
+                "fontFamily": "lg"
+              }
+            },
+            "name": "article-blurb",
+            "styles": {
+              "fontSize": {
+                "lg": 14
+              },
+              "fontFamily": {
+                "lg": "Barlow",
+                "md": "Barlow",
+                "xs": "Barlow"
+              }
+            },
+            "children": {}
+          },
+          "article-title": {
+            "meta": {
+              "dirty": {
+                "fontSize": "xs",
+                "fontFamily": "xs",
+                "lineHeight": "xs"
+              }
+            },
+            "name": "article-title",
+            "styles": {
+              "bold": {
+                "xs": true
+              },
+              "fontSize": {
+                "lg": 20,
+                "md": 18,
+                "xs": 24
+              },
+              "fontFamily": {
+                "lg": "Archivo Black",
+                "md": "Archivo Black",
+                "xs": "Archivo Black"
+              },
+              "lineHeight": {
+                "xs": 1.1
+              }
+            },
+            "children": {}
+          },
+          "article-author": {
+            "meta": {
+              "dirty": {
+                "fontSize": "xs",
+                "fontFamily": "xs"
+              }
+            },
+            "name": "article-author",
+            "styles": {
+              "color": {
+                "xs": "909090"
+              },
+              "fontSize": {
+                "lg": 14,
+                "xs": 11
+              },
+              "fontFamily": {
+                "lg": "Archivo Black",
+                "md": "Archivo Black",
+                "xs": "Archivo Black"
+              }
+            },
+            "children": {}
+          }
+        }
+      },
+      "b-jh9YPPPjuYWTNxLf1FdqY": {
+        "meta": {
+          "dirty": {
+            "backgroundColor": "xs"
+          }
+        },
+        "name": "b-jh9YPPPjuYWTNxLf1FdqY",
+        "styles": {
+          "backgroundColor": {
+            "lg": "0b1a35ff",
+            "md": "0b1a35ff",
+            "xs": "0b1a35ff"
+          }
+        },
+        "children": {
+          "desk-name": {
+            "meta": {
+              "dirty": {
+                "lowercase": "lg",
+                "uppercase": "lg",
+                "fontFamily": "xs"
+              }
+            },
+            "name": "desk-name",
+            "styles": {
+              "bold": {
+                "xs": true
+              },
+              "color": {
+                "xs": "fff"
+              },
+              "fontSize": {
+                "xs": 13
+              },
+              "lowercase": {
+                "lg": false,
+                "md": false,
+                "xs": false
+              },
+              "uppercase": {
+                "lg": true,
+                "md": true,
+                "xs": true
+              },
+              "fontFamily": {
+                "lg": "Archivo Black",
+                "md": "Archivo Black",
+                "xs": "Jost"
+              },
+              "lineHeight": {
+                "xs": 1
+              }
+            },
+            "children": {}
+          },
+          "desk-title": {
+            "meta": {
+              "dirty": {
+                "fontSize": "lg",
+                "lowercase": "lg",
+                "uppercase": "lg",
+                "fontFamily": "xs"
+              }
+            },
+            "name": "desk-title",
+            "styles": {
+              "color": {
+                "xs": "ffffff"
+              },
+              "fontSize": {
+                "lg": 122,
+                "md": 122,
+                "xs": 64
+              },
+              "lowercase": {
+                "lg": false,
+                "md": false,
+                "xs": false
+              },
+              "uppercase": {
+                "lg": true,
+                "md": true,
+                "xs": true
+              },
+              "fontFamily": {
+                "lg": "League Gothic",
+                "md": "League Gothic",
+                "xs": "League Gothic"
+              },
+              "lineHeight": {
+                "xs": 1.2
+              }
+            },
+            "children": {}
+          },
+          "article-time": {
+            "meta": {
+              "dirty": {
+                "color": "xs",
+                "fontFamily": "xs"
+              }
+            },
+            "name": "article-time",
+            "styles": {
+              "bold": {
+                "xs": true
+              },
+              "color": {
+                "lg": "f79219ff",
+                "md": "f79219ff",
+                "xs": "cba17d"
+              },
+              "fontSize": {
+                "xs": 13
+              },
+              "fontFamily": {
+                "lg": "Archivo Black",
+                "md": "Archivo Black",
+                "xs": "Jost"
+              }
+            },
+            "children": {}
+          },
+          "article-blurb": {
+            "meta": {
+              "dirty": {
+                "fontSize": "xs",
+                "fontFamily": "xs",
+                "lineHeight": "xs"
+              }
+            },
+            "name": "article-blurb",
+            "styles": {
+              "color": {
+                "xs": "ffffff"
+              },
+              "fontSize": {
+                "md": 16,
+                "xs": 18
+              },
+              "fontFamily": {
+                "lg": "Barlow",
+                "md": "Barlow",
+                "xs": "Butler"
+              },
+              "lineHeight": {
+                "md": 1.3,
+                "xs": 1.6
+              }
+            },
+            "children": {}
+          },
+          "article-title": {
+            "meta": {
+              "dirty": {
+                "fontSize": "xs",
+                "fontFamily": "xs",
+                "lineHeight": "xs"
+              }
+            },
+            "name": "article-title",
+            "styles": {
+              "bold": {
+                "xs": true
+              },
+              "color": {
+                "xs": "ffffff"
+              },
+              "fontSize": {
+                "xs": 20
+              },
+              "fontFamily": {
+                "lg": "Archivo Black",
+                "md": "Archivo Black",
+                "xs": "Archivo Black"
+              },
+              "lineHeight": {
+                "lg": 1.4,
+                "md": 1.4,
+                "xs": 1
+              }
+            },
+            "children": {}
+          },
+          "article-authors": {
+            "meta": {
+              "dirty": {
+                "color": "xs",
+                "fontFamily": "xs"
+              }
+            },
+            "name": "article-authors",
+            "styles": {
+              "bold": {
+                "xs": true
+              },
+              "color": {
+                "lg": "f79219ff",
+                "md": "f79219ff",
+                "xs": "cba17d"
+              },
+              "fontSize": {
+                "xs": 13
+              },
+              "fontFamily": {
+                "lg": "Archivo Black",
+                "md": "Archivo Black",
+                "xs": "Archivo Black"
+              }
+            },
+            "children": {}
+          },
+          "desk-title-divider": {
+            "name": "desk-title-divider",
+            "styles": {
+              "backgroundColor": {
+                "xs": "3a4441"
+              }
+            },
+            "children": {}
+          }
+        }
+      }
+    }
+  },
+  "blockStates": {
+    "3xnQbTzWpavi8FDodYDrb": {
+      "type": "footer-default",
+      "desks": [],
+      "colors": []
+    },
+    "JKkfHu1Huy5mN0_0ljHSp": {
+      "type": "text-the-atlantic",
+      "desks": ["latest", "latest", "latest"],
+      "colors": []
+    },
+    "dHwgIV24IXgf4h7ms6_x4": {
+      "type": "psyche-1",
+      "desks": ["latest"],
+      "colors": []
+    },
+    "dqjmVt6TTybCNeB58JG6W": {
+      "type": "nylon-2",
+      "desks": ["latest", "latest"],
+      "colors": []
+    },
+    "hd3ZDXcG7nsMUcZi5sanP": {
+      "type": "aeon-one",
+      "desks": ["latest"],
+      "colors": []
+    },
+    "jh9YPPPjuYWTNxLf1FdqY": {
+      "type": "undark-one",
+      "desks": ["latest"],
+      "colors": []
+    }
+  }
+}

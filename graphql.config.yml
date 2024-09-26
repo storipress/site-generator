@@ -1,0 +1,19 @@
+schema:
+  - 'https://api.storipress.dev/graphql'
+  - './graphql/client-state.gql'
+documents: './graphql/**/*.gql'
+extensions:
+  codegen:
+    generates:
+      ./graphql-operations.ts:
+        plugins:
+          - typescript
+          - typescript-operations
+          - typed-document-node
+      ./cli/handler/graphql-operations.ts:
+        config:
+          gqlImport: 'graphql-request#gql'
+        plugins:
+          - typescript
+          - typescript-operations
+          - typescript-graphql-request

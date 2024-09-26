@@ -1,0 +1,15 @@
+**/.git
+**/.wrangler
+**/.yarn/install-state.gz
+**/node_modules/
+**/terraform/
+**/dist
+**/.output
+**/.nuxt
+**/.DS_Store
+.env
+*.tar.br
+playground/.env
+playground/generated
+/scripts
+!/scripts/snapshot.ts

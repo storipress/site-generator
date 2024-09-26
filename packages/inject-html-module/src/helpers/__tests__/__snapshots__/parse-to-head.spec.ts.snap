@@ -1,0 +1,100 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`parse google search console meta 1`] = `
+{
+  "head": {
+    "link": [],
+    "meta": [
+      {
+        "content": "kYgLy4ZCjuR-ZxaISEs0ofzt5wpJAd9nTZ51hYdC_zs",
+        "name": "google-site-verification",
+        "tagPosition": "head",
+        "tagPriority": "high",
+      },
+    ],
+    "noscript": [],
+    "script": [],
+    "style": [],
+  },
+  "html": "",
+}
+`;
+
+exports[`parse google search console meta 2`] = `
+{
+  "head": {
+    "link": [],
+    "meta": [
+      {
+        "content": "kYgLy4ZCjuR-ZxaISEs0ofzt5wpJAd9nTZ51hYdC_zs",
+        "name": "google-site-verification",
+        "tagPosition": "head",
+        "tagPriority": "high",
+      },
+    ],
+    "noscript": [],
+    "script": [],
+    "style": [],
+  },
+  "html": "",
+}
+`;
+
+exports[`parse google search console meta 3`] = `
+{
+  "head": {
+    "link": [],
+    "meta": [
+      {
+        "content": "kYgLy4ZCjuR-ZxaISEs0ofzt5wpJAd9nTZ51hYdC_zs",
+        "name": "google-site-verification",
+        "tagPosition": "head",
+        "tagPriority": "high",
+      },
+    ],
+    "noscript": [],
+    "script": [],
+    "style": [],
+  },
+  "html": "",
+}
+`;
+
+exports[`should correctly handle for invalid html \`<   >\` 1`] = `
+{
+  "head": {
+    "link": [],
+    "meta": [],
+    "noscript": [],
+    "script": [],
+    "style": [],
+  },
+  "html": "<   >",
+}
+`;
+
+exports[`should correctly handle for invalid html \`</>\` 1`] = `
+{
+  "head": {
+    "link": [],
+    "meta": [],
+    "noscript": [],
+    "script": [],
+    "style": [],
+  },
+  "html": "</>",
+}
+`;
+
+exports[`should correctly handle for invalid html \`<>\` 1`] = `
+{
+  "head": {
+    "link": [],
+    "meta": [],
+    "noscript": [],
+    "script": [],
+    "style": [],
+  },
+  "html": "<>",
+}
+`;

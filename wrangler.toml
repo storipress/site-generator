@@ -1,0 +1,3 @@
+name = 'nuxt3-compatible-layer'
+account_id = '97921f85afb186b3f60849e7cf448b96'
+compatibility_flags = [ "nodejs_compat" ]

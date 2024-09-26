@@ -1,0 +1,55 @@
+@mixin force-inherit {
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  font-style: inherit !important;
+  line-height: inherit !important;
+  color: inherit !important;
+  text-decoration: inherit !important;
+  text-transform: inherit !important;
+  text-align: inherit !important;
+}
+
+@mixin dropcap($name) {
+  .dropcap--#{$name} {
+    .main-content {
+      & > p {
+        &:first-of-type {
+          &::first-letter {
+            @content;
+          }
+        }
+      }
+
+      div[data-paragraph='1'] {
+        p:first-of-type {
+          &::first-letter {
+            @content;
+          }
+        }
+      }
+    }
+  }
+}
+
+@mixin blockquote($name) {
+  .blockquote--#{$name} {
+    .main-content {
+      & > blockquote {
+        @content;
+
+        & > p {
+          @include force-inherit;
+        }
+      }
+
+      div:not([data-format]) blockquote {
+        @content;
+
+        & > p {
+          @include force-inherit;
+        }
+      }
+    }
+  }
+}

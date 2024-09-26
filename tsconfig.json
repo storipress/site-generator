@@ -1,0 +1,9 @@
+{
+  "extends": "./playground/.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "allowJs": true
+  },
+  "exclude": ["Builder-Blocks/**/*", "node_modules/**/*", "**/*.stories.ts"]
+}

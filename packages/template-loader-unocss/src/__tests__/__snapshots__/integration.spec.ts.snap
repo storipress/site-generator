@@ -1,0 +1,537 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`article > able to process block \`background\` fixture 1`] = `
+"<template>
+  <ArticleBlock  class=\\"bg-[#000]\\"                      >
+    <HeaderBlock>
+      <TitleElement  class=\\"font-bold\\"      />
+      <Description  class=\\"font-bold\\"      />
+    </HeaderBlock>
+  </ArticleBlock>
+</template>
+
+<style scoped>/* layer: default */
+.bg-\\\\[\\\\#000\\\\]{--un-bg-opacity:1;background-color:rgb(0 0 0 / var(--un-bg-opacity));}
+.font-bold{font-weight:700;}</style>"
+`;
+
+exports[`article > able to process block \`basic\` fixture 1`] = `
+"<template>
+  <ArticleBlock>
+    <HeaderBlock>
+      <TitleElement  class=\\"font-bold\\"      />
+      <Description  class=\\"font-bold\\"      />
+    </HeaderBlock>
+  </ArticleBlock>
+</template>
+
+<style scoped>/* layer: default */
+.font-bold{font-weight:700;}</style>"
+`;
+
+exports[`article > able to process block \`content\` fixture 1`] = `
+"<template>
+  <ArticleBlock  class=\\"bg-[#000]\\"                      >
+    <HeaderBlock  class=\\"bg-[#f00]\\"                      >
+      <TitleElement  class=\\"font-bold\\"      />
+      <Description  class=\\"font-bold\\"      />
+    </HeaderBlock>
+    <content>
+      <Paragraph  class=\\"font-bold\\"      />
+    </content>
+  </ArticleBlock>
+</template>
+
+<style scoped>/* layer: default */
+.bg-\\\\[\\\\#000\\\\]{--un-bg-opacity:1;background-color:rgb(0 0 0 / var(--un-bg-opacity));}
+.bg-\\\\[\\\\#f00\\\\]{--un-bg-opacity:1;background-color:rgb(255 0 0 / var(--un-bg-opacity));}
+.font-bold{font-weight:700;}</style>"
+`;
+
+exports[`article > able to process block \`header background\` fixture 1`] = `
+"<template>
+  <ArticleBlock  class=\\"bg-[#000]\\"                      >
+    <HeaderBlock  class=\\"bg-[#f00]\\"                      >
+      <TitleElement  class=\\"font-bold\\"      />
+      <Description  class=\\"font-bold\\"      />
+    </HeaderBlock>
+  </ArticleBlock>
+</template>
+
+<style scoped>/* layer: default */
+.bg-\\\\[\\\\#000\\\\]{--un-bg-opacity:1;background-color:rgb(0 0 0 / var(--un-bg-opacity));}
+.bg-\\\\[\\\\#f00\\\\]{--un-bg-opacity:1;background-color:rgb(255 0 0 / var(--un-bg-opacity));}
+.font-bold{font-weight:700;}</style>"
+`;
+
+exports[`article: with override enable > able to process article \`basic\` fixture 1`] = `
+"<template>
+  <ArticleBlock>
+    <TitleElement  class=\\"text-[#fff]\\"             />
+  </ArticleBlock>
+</template>
+
+<style scoped>/* layer: default */
+.text-\\\\[\\\\#fff\\\\]{--un-text-opacity:1;color:rgb(255 255 255 / var(--un-text-opacity));}</style>"
+`;
+
+exports[`article: with override enable > able to process article \`with kind\` fixture 1`] = `
+"<template>
+  <ArticleBlock>
+    <TitleElement  class=\\"text-[#fff]\\" kind=\\"hero-title\\"             />
+  </ArticleBlock>
+</template>
+
+<style scoped>/* layer: default */
+.text-\\\\[\\\\#fff\\\\]{--un-text-opacity:1;color:rgb(255 255 255 / var(--un-text-opacity));}</style>"
+`;
+
+exports[`article: with override enable > able to process block \`background\` fixture 1`] = `
+"<template>
+  <ArticleBlock  class=\\"bg-[#000]\\"                      >
+    <HeaderBlock>
+      <TitleElement  class=\\"font-bold\\"      />
+      <Description  class=\\"font-bold\\"      />
+    </HeaderBlock>
+  </ArticleBlock>
+</template>
+
+<style scoped>/* layer: default */
+.bg-\\\\[\\\\#000\\\\]{--un-bg-opacity:1;background-color:rgb(0 0 0 / var(--un-bg-opacity));}
+.font-bold{font-weight:700;}</style>"
+`;
+
+exports[`article: with override enable > able to process block \`basic\` fixture 1`] = `
+"<template>
+  <ArticleBlock>
+    <HeaderBlock>
+      <TitleElement  class=\\"font-bold\\"      />
+      <Description  class=\\"font-bold\\"      />
+    </HeaderBlock>
+  </ArticleBlock>
+</template>
+
+<style scoped>/* layer: default */
+.font-bold{font-weight:700;}</style>"
+`;
+
+exports[`article: with override enable > able to process block \`content\` fixture 1`] = `
+"<template>
+  <ArticleBlock  class=\\"bg-[#000]\\"                      >
+    <HeaderBlock  class=\\"bg-[#f00]\\"                      >
+      <TitleElement  class=\\"font-bold\\"      />
+      <Description  class=\\"font-bold\\"      />
+    </HeaderBlock>
+    <content>
+      <Paragraph      />
+    </content>
+  </ArticleBlock>
+</template>
+<style lang=\\"postcss\\" scoped>
+  .article .article-content :deep(.main-content p) {
+            @apply font-bold;
+          }
+
+
+          :deep(.base-text) {
+            @apply font-bold;
+          }
+</style>
+
+<style scoped>/* layer: default */
+.bg-\\\\[\\\\#000\\\\]{--un-bg-opacity:1;background-color:rgb(0 0 0 / var(--un-bg-opacity));}
+.bg-\\\\[\\\\#f00\\\\]{--un-bg-opacity:1;background-color:rgb(255 0 0 / var(--un-bg-opacity));}
+.font-bold{font-weight:700;}</style>"
+`;
+
+exports[`article: with override enable > able to process block \`header background\` fixture 1`] = `
+"<template>
+  <ArticleBlock  class=\\"bg-[#000]\\"                      >
+    <HeaderBlock  class=\\"bg-[#f00]\\"                      >
+      <TitleElement  class=\\"font-bold\\"      />
+      <Description  class=\\"font-bold\\"      />
+    </HeaderBlock>
+  </ArticleBlock>
+</template>
+
+<style scoped>/* layer: default */
+.bg-\\\\[\\\\#000\\\\]{--un-bg-opacity:1;background-color:rgb(0 0 0 / var(--un-bg-opacity));}
+.bg-\\\\[\\\\#f00\\\\]{--un-bg-opacity:1;background-color:rgb(255 0 0 / var(--un-bg-opacity));}
+.font-bold{font-weight:700;}</style>"
+`;
+
+exports[`block > able to process \`basic\` fixture 1`] = `
+"<template>
+  <TextElement
+    component=\\"h2\\"
+    kind=\\"featured-article-title\\"
+    blockType=\\"Featured Article Title\\"
+                                          
+                           
+                  
+                       
+    class=\\"mt-8 leading-tight duration-200 md:mt-0 hover:text-red-500 transition-color text-[31px] md:text-[31px] lg:text-[42px] ff-[Charis_SIL] text-[#191919] hover:text-[#FF0000]\\"
+    >foo</TextElement
+  >
+</template>
+
+<style scoped>/* layer: default */
+.mt-8{margin-top:2rem;}
+.h2{height:0.5rem;}
+.text-\\\\[31px\\\\]{font-size:31px;}
+.leading-tight{line-height:1.25;}
+.text-\\\\[\\\\#191919\\\\]{--un-text-opacity:1;color:rgb(25 25 25 / var(--un-text-opacity));}
+.hover\\\\:text-\\\\[\\\\#FF0000\\\\]:hover{--un-text-opacity:1;color:rgb(255 0 0 / var(--un-text-opacity));}
+.hover\\\\:text-red-500:hover{--un-text-opacity:1;color:rgb(239 68 68 / var(--un-text-opacity));}
+.transition-color{transition-property:color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms;}
+.duration-200{transition-duration:200ms;}
+.ff-\\\\[Charis_SIL\\\\]{font-family:\\"Charis SIL\\";}
+@media (min-width: 768px){
+.md\\\\:mt-0{margin-top:0;}
+.md\\\\:text-\\\\[31px\\\\]{font-size:31px;}
+}
+@media (min-width: 1024px){
+.lg\\\\:text-\\\\[42px\\\\]{font-size:42px;}
+}</style>"
+`;
+
+exports[`block > able to process \`block with background\` fixture 1`] = `
+"<template>
+  <Block  class=\\"bg-[#ff0000]\\"                          />
+</template>
+
+<style scoped>/* layer: default */
+.bg-\\\\[\\\\#ff0000\\\\]{--un-bg-opacity:1;background-color:rgb(255 0 0 / var(--un-bg-opacity));}</style>"
+`;
+
+exports[`block > able to process \`hero block with background\` fixture 1`] = `
+"<template>
+  <HeroBlock  class=\\"bg-[#ff0000]\\"                          />
+</template>
+
+<style scoped>/* layer: default */
+.bg-\\\\[\\\\#ff0000\\\\]{--un-bg-opacity:1;background-color:rgb(255 0 0 / var(--un-bg-opacity));}</style>"
+`;
+
+exports[`block > able to process \`hero block with spacing\` fixture 1`] = `
+"<template>
+  <HeroBlock>
+    <SpacingProvider  class=\\"w-[100%] max-w-[100%]\\"                         />
+  </HeroBlock>
+</template>
+
+<style scoped>/* layer: default */
+.max-w-\\\\[100\\\\%\\\\]{max-width:100%;}
+.w-\\\\[100\\\\%\\\\]{width:100%;}</style>"
+`;
+
+exports[`block > able to process \`navbar\` fixture 1`] = `
+"<template>
+  <Navigation>
+    <TextInput  class=\\"font-bold\\" kind=\\"title\\" blockType=\\"Title\\"      />
+  </Navigation>
+</template>
+
+<style scoped>/* layer: default */
+.font-bold{font-weight:700;}</style>"
+`;
+
+exports[`block > able to process \`width\` fixture 1`] = `
+"<template>
+  <div style=\\"width: 10%;\\"></div>
+</template>
+"
+`;
+
+exports[`extractTemplateStaticConfig > able to process \`block with background and content\` fixture 1`] = `
+"<template>
+  <Block  class=\\"bg-[#ff0000]\\"                         >
+    <TextElement  class=\\"text-[#ff0000]\\" kind=\\"foo\\"                />
+  </Block>
+</template>
+
+<style scoped>/* layer: default */
+.bg-\\\\[\\\\#ff0000\\\\]{--un-bg-opacity:1;background-color:rgb(255 0 0 / var(--un-bg-opacity));}
+.text-\\\\[\\\\#ff0000\\\\]{--un-text-opacity:1;color:rgb(255 0 0 / var(--un-text-opacity));}</style>"
+`;
+
+exports[`extractTemplateStaticConfig > able to process \`block with background\` fixture 1`] = `
+"<template>
+  <Block  class=\\"bg-[#ff0000]\\"                          />
+</template>
+
+<style scoped>/* layer: default */
+.bg-\\\\[\\\\#ff0000\\\\]{--un-bg-opacity:1;background-color:rgb(255 0 0 / var(--un-bg-opacity));}</style>"
+`;
+
+exports[`extractTemplateStaticConfig > able to process \`block with null color\` fixture 1`] = `
+"<template>
+  <Block  class=\\"lg:bg-[#000]\\" :block=\\"block\\"                                            />
+</template>
+
+<style scoped>/* layer: default */
+.block{display:block;}
+@media (min-width: 1024px){
+.lg\\\\:bg-\\\\[\\\\#000\\\\]{--un-bg-opacity:1;background-color:rgb(0 0 0 / var(--un-bg-opacity));}
+}</style>"
+`;
+
+exports[`extractTemplateStaticConfig > able to process \`complex hero block with spacing\` fixture 1`] = `
+"<template>
+  <HeroBlock  class=\\"bg-[#000]\\" :block=\\"block\\"                      >
+    <NavBar class=\\"z-20\\" />
+    <!-- nav-spacer -->
+    <div class=\\"md:h-20 h-12\\"></div>
+    <DeskSection v-slot=\\"{ desk }\\">
+      <ArticleBlock class=\\"mb-14 lg:flex-row inset-x-0 flex flex-col w-full mx-auto my-0\\" v-slot=\\"{ article }\\">
+        <div
+          class=\\"lg:order-2
+            border-opacity-20
+            lg:flex-1
+            md:px-10
+            flex flex-col
+            justify-center
+            px-5
+            py-10
+            border-t border-white border-solid\\"
+        >
+          <TextElement
+ class=\\"text-[13px] md:text-[16px] ff-[Standard] text-[#fff] underline\\"             component=\\"p\\"
+            kind=\\"desk-title\\"
+                       
+                                           
+                     
+                                  
+            >{{ desk }}</TextElement
+          >
+        </div>
+      </ArticleBlock>
+    </DeskSection>
+    <SpacingProvider  class=\\"w-[80%]\\"             />
+  </HeroBlock>
+</template>
+
+<style scoped>/* layer: default */
+.inset-x-0{left:0;right:0;}
+.z-20{z-index:20;}
+.mx-auto{margin-left:auto;margin-right:auto;}
+.my-0{margin-top:0;margin-bottom:0;}
+.mb-14{margin-bottom:3.5rem;}
+.block{display:block;}
+.h-12{height:3rem;}
+.w-\\\\[80\\\\%\\\\]{width:80%;}
+.w-full{width:100%;}
+.flex{display:flex;}
+.flex-col{flex-direction:column;}
+.justify-center{justify-content:center;}
+.border-t{border-top-width:1px;}
+.border-white{--un-border-opacity:1;border-color:rgb(255 255 255 / var(--un-border-opacity));}
+.border-opacity-20{--un-border-opacity:0.2;}
+.border-solid{border-style:solid;}
+.bg-\\\\[\\\\#000\\\\]{--un-bg-opacity:1;background-color:rgb(0 0 0 / var(--un-bg-opacity));}
+.px-5{padding-left:1.25rem;padding-right:1.25rem;}
+.py-10{padding-top:2.5rem;padding-bottom:2.5rem;}
+.text-\\\\[13px\\\\]{font-size:13px;}
+.text-\\\\[\\\\#fff\\\\]{--un-text-opacity:1;color:rgb(255 255 255 / var(--un-text-opacity));}
+.underline{text-decoration-line:underline;}
+.ff-\\\\[Standard\\\\]{font-family:\\"Standard\\";}
+@media (min-width: 768px){
+.md\\\\:h-20{height:5rem;}
+.md\\\\:px-10{padding-left:2.5rem;padding-right:2.5rem;}
+.md\\\\:text-\\\\[16px\\\\]{font-size:16px;}
+}
+@media (min-width: 1024px){
+.lg\\\\:order-2{order:2;}
+.lg\\\\:flex-1{flex:1 1 0%;}
+.lg\\\\:flex-row{flex-direction:row;}
+}</style>"
+`;
+
+exports[`extractTemplateStaticConfig > able to process \`complex hero block\` fixture 1`] = `
+"<template>
+  <HeroBlock  class=\\"bg-[#000]\\" :block=\\"block\\"                      >
+    <NavBar class=\\"z-20\\" />
+    <!-- nav-spacer -->
+    <div class=\\"md:h-20 h-12\\"></div>
+    <DeskSection v-slot=\\"{ desk }\\">
+      <ArticleBlock class=\\"mb-14 lg:flex-row inset-x-0 flex flex-col w-full mx-auto my-0\\" v-slot=\\"{ article }\\">
+        <div
+          class=\\"lg:order-2
+            border-opacity-20
+            lg:flex-1
+            md:px-10
+            flex flex-col
+            justify-center
+            px-5
+            py-10
+            border-t border-white border-solid\\"
+        >
+          <TextElement
+ class=\\"text-[13px] md:text-[16px] ff-[Standard] text-[#fff] underline\\"             component=\\"p\\"
+            kind=\\"desk-title\\"
+                       
+                                           
+                     
+                                  
+            >{{ desk }}</TextElement
+          >
+        </div>
+      </ArticleBlock>
+    </DeskSection>
+  </HeroBlock>
+</template>
+
+<style scoped>/* layer: default */
+.inset-x-0{left:0;right:0;}
+.z-20{z-index:20;}
+.mx-auto{margin-left:auto;margin-right:auto;}
+.my-0{margin-top:0;margin-bottom:0;}
+.mb-14{margin-bottom:3.5rem;}
+.block{display:block;}
+.h-12{height:3rem;}
+.w-full{width:100%;}
+.flex{display:flex;}
+.flex-col{flex-direction:column;}
+.justify-center{justify-content:center;}
+.border-t{border-top-width:1px;}
+.border-white{--un-border-opacity:1;border-color:rgb(255 255 255 / var(--un-border-opacity));}
+.border-opacity-20{--un-border-opacity:0.2;}
+.border-solid{border-style:solid;}
+.bg-\\\\[\\\\#000\\\\]{--un-bg-opacity:1;background-color:rgb(0 0 0 / var(--un-bg-opacity));}
+.px-5{padding-left:1.25rem;padding-right:1.25rem;}
+.py-10{padding-top:2.5rem;padding-bottom:2.5rem;}
+.text-\\\\[13px\\\\]{font-size:13px;}
+.text-\\\\[\\\\#fff\\\\]{--un-text-opacity:1;color:rgb(255 255 255 / var(--un-text-opacity));}
+.underline{text-decoration-line:underline;}
+.ff-\\\\[Standard\\\\]{font-family:\\"Standard\\";}
+@media (min-width: 768px){
+.md\\\\:h-20{height:5rem;}
+.md\\\\:px-10{padding-left:2.5rem;padding-right:2.5rem;}
+.md\\\\:text-\\\\[16px\\\\]{font-size:16px;}
+}
+@media (min-width: 1024px){
+.lg\\\\:order-2{order:2;}
+.lg\\\\:flex-1{flex:1 1 0%;}
+.lg\\\\:flex-row{flex-direction:row;}
+}</style>"
+`;
+
+exports[`extractTemplateStaticConfig > able to process \`full component\` fixture 1`] = `
+"<template>
+  <HeroBlock  class=\\"bg-[#000]\\" :block=\\"block\\"                      >
+    <NavBar class=\\"z-20\\" />
+    <!-- nav-spacer -->
+    <div class=\\"md:h-20 h-12\\"></div>
+    <DeskSection v-slot=\\"{ desk }\\">
+      <ArticleBlock class=\\"mb-14 lg:flex-row inset-x-0 flex flex-col w-full mx-auto my-0\\" v-slot=\\"{ article }\\">
+        <div
+          class=\\"lg:order-2
+            border-opacity-20
+            lg:flex-1
+            md:px-10
+            flex flex-col
+            justify-center
+            px-5
+            py-10
+            border-t border-white border-solid\\"
+        >
+          <TextElement
+ class=\\"text-[13px] md:text-[16px] ff-[Standard] text-[#fff] underline\\"             component=\\"p\\"
+            kind=\\"desk-title\\"
+                       
+                                           
+                     
+                                  
+            >{{ desk }}</TextElement
+          >
+        </div>
+      </ArticleBlock>
+    </DeskSection>
+    <SpacingProvider  class=\\"w-[80%]\\"             />
+  </HeroBlock>
+</template>
+
+<style>
+  .foo {
+    color: red;
+  }
+</style>
+
+<style scoped>/* layer: default */
+.inset-x-0{left:0;right:0;}
+.z-20{z-index:20;}
+.mx-auto{margin-left:auto;margin-right:auto;}
+.my-0{margin-top:0;margin-bottom:0;}
+.mb-14{margin-bottom:3.5rem;}
+.block{display:block;}
+.h-12{height:3rem;}
+.w-\\\\[80\\\\%\\\\]{width:80%;}
+.w-full{width:100%;}
+.flex{display:flex;}
+.flex-col{flex-direction:column;}
+.justify-center{justify-content:center;}
+.border-t{border-top-width:1px;}
+.border-white{--un-border-opacity:1;border-color:rgb(255 255 255 / var(--un-border-opacity));}
+.border-opacity-20{--un-border-opacity:0.2;}
+.border-solid{border-style:solid;}
+.bg-\\\\[\\\\#000\\\\]{--un-bg-opacity:1;background-color:rgb(0 0 0 / var(--un-bg-opacity));}
+.px-5{padding-left:1.25rem;padding-right:1.25rem;}
+.py-10{padding-top:2.5rem;padding-bottom:2.5rem;}
+.text-\\\\[13px\\\\]{font-size:13px;}
+.text-\\\\[\\\\#fff\\\\]{--un-text-opacity:1;color:rgb(255 255 255 / var(--un-text-opacity));}
+.underline{text-decoration-line:underline;}
+.ff-\\\\[Standard\\\\]{font-family:\\"Standard\\";}
+@media (min-width: 768px){
+.md\\\\:h-20{height:5rem;}
+.md\\\\:px-10{padding-left:2.5rem;padding-right:2.5rem;}
+.md\\\\:text-\\\\[16px\\\\]{font-size:16px;}
+}
+@media (min-width: 1024px){
+.lg\\\\:order-2{order:2;}
+.lg\\\\:flex-1{flex:1 1 0%;}
+.lg\\\\:flex-row{flex-direction:row;}
+}</style>"
+`;
+
+exports[`extractTemplateStaticConfig > able to process \`hero block with background\` fixture 1`] = `
+"<template>
+  <HeroBlock  class=\\"bg-[#ff0000]\\"                          />
+</template>
+
+<style scoped>/* layer: default */
+.bg-\\\\[\\\\#ff0000\\\\]{--un-bg-opacity:1;background-color:rgb(255 0 0 / var(--un-bg-opacity));}</style>"
+`;
+
+exports[`extractTemplateStaticConfig > able to process \`hero block with spacing and min/max\` fixture 1`] = `
+"<template>
+  <HeroBlock  class=\\"bg-[#000]\\" :block=\\"block\\"                      >
+    <SpacingProvider  class=\\"w-[80%] lg:max-w-[1280px]\\"                                   />
+  </HeroBlock>
+</template>
+
+<style scoped>/* layer: default */
+.block{display:block;}
+.w-\\\\[80\\\\%\\\\]{width:80%;}
+.bg-\\\\[\\\\#000\\\\]{--un-bg-opacity:1;background-color:rgb(0 0 0 / var(--un-bg-opacity));}
+@media (min-width: 1024px){
+.lg\\\\:max-w-\\\\[1280px\\\\]{max-width:1280px;}
+}</style>"
+`;
+
+exports[`extractTemplateStaticConfig > able to process \`static keyed element\` fixture 1`] = `
+"<template>
+  <div key=\\"foo\\" />
+</template>
+"
+`;
+
+exports[`extractTemplateStaticConfig > extract from other page 1`] = `
+"<template>
+  <ArticleBlock>
+    <TitleElement  class=\\"text-[#fff]\\"             />
+  </ArticleBlock>
+</template>
+
+<style scoped>/* layer: default */
+.text-\\\\[\\\\#fff\\\\]{--un-text-opacity:1;color:rgb(255 255 255 / var(--un-text-opacity));}</style>"
+`;

@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "packageManager": "yarn@4.1.1",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/kit": "3.7.3",
+    "@storipress/inject-html-module": "workspace:^",
+    "@unocss/nuxt": "0.57.7",
+    "node-html-parser": "6.1.13",
+    "zhead": "2.2.4"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "1.3.3",
+    "nuxt": "3.7.3",
+    "vitest": "0.34.6"
+  }
+}

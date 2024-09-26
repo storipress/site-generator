@@ -1,0 +1,6 @@
+fragment LayoutFragment on Layout {
+  id
+  name
+  template
+  data
+}

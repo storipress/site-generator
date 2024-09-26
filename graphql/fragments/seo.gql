@@ -1,0 +1,16 @@
+fragment SEOFragment on ResolvedSEO {
+  slug
+  meta {
+    title
+    description
+  }
+  og {
+    title
+    description
+  }
+  ogImage
+  inject {
+    header
+    footer
+  }
+}

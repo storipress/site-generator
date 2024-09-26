@@ -1,0 +1,42 @@
+{
+  "name": "@storipress/template-loader-unocss",
+  "packageManager": "yarn@4.1.1",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "unbuild",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@unocss/core": "0.57.7",
+    "hookable": "5.5.3",
+    "json5": "2.2.3",
+    "proper-tags": "2.0.2",
+    "remeda": "1.61.0",
+    "scule": "1.3.0",
+    "tiny-invariant": "1.3.3",
+    "type-fest": "4.20.0",
+    "unocss": "0.57.7"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "2.21.1",
+    "@unocss/preset-uno": "0.57.7",
+    "@unocss/transformer-directives": "0.57.7",
+    "@vitejs/plugin-vue": "4.6.2",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-prettier": "5.1.3",
+    "prettier": "3.3.2",
+    "tsx": "4.15.4",
+    "typescript": "5.4.5",
+    "unbuild": "2.0.0",
+    "vite": "4.5.3",
+    "vitest": "0.34.6",
+    "vue": "3.4.28"
+  }
+}
