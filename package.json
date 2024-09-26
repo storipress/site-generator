@@ -157,7 +157,7 @@
     "typescript": "5.4.5",
     "unplugin-auto-import": "0.17.6",
     "user-agent-data-types": "0.4.2",
-    "vite": "4.5.3",
+    "vite": "4.5.5",
     "vitest": "0.34.6",
     "vue": "3.4.28",
     "vue-tsc": "2.0.21"
